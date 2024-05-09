@@ -8,7 +8,7 @@ const Layout = (props) => {
   let [result, setResult] = useState("");
   const handleClick = (event) => {
     const value = event.target.value;
-    console.log(value);
+
     if (value === "=") {
       if (input !== "") {
         let res = "";
